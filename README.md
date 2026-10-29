@@ -1,17 +1,19 @@
 # STS-SynthV
 
-## Synthetic Dataset
+**STS-SynthV** is the synthetic video scene text dataset introduced in our paper, *SAM2Text: Towards Prompt-Free and Multi-Resolution Video Scene Text Segmentation*.
 
-According to the SAM2Text manuscript, the synthetic video scene-text dataset is named **STS-SynthV** (*Synthetic Video Scene Text dataset*).
+We construct STS-SynthV to provide controllable, pixel-level annotations for studying video scene text segmentation. The dataset consists of synthetic video clips with text rendered across consecutive frames, together with frame-level text masks. These annotations support training and evaluating models that must segment text regions while maintaining temporal consistency throughout a video.
 
-论文项目主页：[SAM2Text](https://github.com/insuper-zhang/SAM2Text/)
+The dataset is intended for research on prompt-free video scene text segmentation and serves as the synthetic-data counterpart to the real-world video benchmarks discussed in our paper.
 
-This repository provides the corresponding synthetic dataset archive:
+## Download
+
+We provide the dataset archive through Quark Drive:
 
 `synth_hmb_dataset.tar.zst`
 
-我用夸克网盘给你分享了「synth_hmb_dataset.tar.zst」，点击链接或复制整段内容，打开「夸克APP」即可获取。
+> 夸克网盘：
 
-下载链接：[synth_hmb_dataset.tar.zst](https://pan.quark.cn/s/e46ace001416)
+[Download STS-SynthV](https://pan.quark.cn/s/e46ace001416)
 
-下载并解压后，该数据集用于 SAM2Text 的视频场景文本分割实验。
+For details about the method and experimental setting, please refer to the [SAM2Text project page](https://github.com/insuper-zhang/SAM2Text/).
