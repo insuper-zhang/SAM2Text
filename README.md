@@ -1,6 +1,6 @@
 # STS-SynthV
 
-**STS-SynthV** is the synthetic video scene text dataset introduced in our paper, *SAM2Text: Towards Prompt-Free and Multi-Resolution Video Scene Text Segmentation*.
+**STS-SynthV** is the synthetic video scene text dataset.
 
 We construct STS-SynthV to provide controllable, pixel-level annotations for studying video scene text segmentation. The dataset consists of synthetic video clips with text rendered across consecutive frames, together with frame-level text masks. These annotations support training and evaluating models that must segment text regions while maintaining temporal consistency throughout a video.
 
